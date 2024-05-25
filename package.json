@@ -1,9 +1,3 @@
-
-### Step 4: Update `package.json` for GitHub Repository
-
-Ensure your `package.json` points to your GitHub repository.
-
-```json
 {
   "name": "credit-card-validator",
   "version": "1.0.0",
