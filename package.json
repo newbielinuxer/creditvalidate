@@ -1,0 +1,33 @@
+
+### Step 4: Update `package.json` for GitHub Repository
+
+Ensure your `package.json` points to your GitHub repository.
+
+```json
+{
+  "name": "credit-card-validator",
+  "version": "1.0.0",
+  "description": "A simple npm package for validating credit card numbers using the Luhn algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/credit-card-validator.git"
+  },
+  "keywords": [
+    "credit card",
+    "validator",
+    "luhn",
+    "validation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/credit-card-validator/issues"
+  },
+  "homepage": "https://github.com/yourusername/credit-card-validator#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
